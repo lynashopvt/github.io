@@ -1,42 +1,113 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
-    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
 }
 
 header nav ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
+    display: flex;
 }
 
 header nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin-left: 20px;
 }
 
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 10px 0 20px;
+}
+
+.hero .btn {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #e63900;
 }
 
 section {
-    padding: 20px;
-    margin: 20px 0;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    padding: 50px 0;
+}
+
+.about,
+.contact {
+    text-align: center;
+}
+
+.shop .products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop .products .product {
+    text-align: center;
+    width: 30%;
+}
+
+.shop .products .product img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
     background-color: #333;
     color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
 }
