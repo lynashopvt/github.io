@@ -65,13 +65,8 @@ header nav ul li a:hover {
     display: block;
     margin: 0 auto; /* Canh giữa hình ảnh */
     pointer-events: none; /* Tắt tương tác với hình ảnh */
-.non-interactive-link {
+.non-interactive-link 
     pointer-events: none; /* Tắt tương tác với liên kết */
-
-
-}
-
-
 }
 
 .hero h2 {
