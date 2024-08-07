@@ -53,6 +53,8 @@ header nav ul li a:hover {
     color: #fff;
     text-align: center;
     padding: 100px 0;
+    height: 400px; /* Đặt chiều cao cố định cho phần tiêu đề */
+    position: relative;
 }
 
 .hero h2 {
