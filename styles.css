@@ -64,6 +64,8 @@ header nav ul li a:hover {
     object-fit: cover; /* Đảm bảo hình ảnh được cắt cúp để vừa với kích thước */
     display: block;
     margin: 0 auto; /* Canh giữa hình ảnh */
+    pointer-events: none; /* Tắt tương tác với hình ảnh */
+
 }
 
 
