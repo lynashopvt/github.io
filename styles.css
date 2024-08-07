@@ -54,6 +54,7 @@ header nav ul li a:hover {
     text-align: center;
     padding: 100px 0;
     height: 400px; /* Đặt chiều cao cố định cho phần tiêu đề */
+    width: 1200px;
     position: relative;
 .hero img {
     max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của phần tiêu đề */
